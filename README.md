@@ -1,2 +1,2 @@
 # Visit My Portfolio
-https://sidunrealde.github.io/Portfolio/
+https://sidunrealde.github.io/
