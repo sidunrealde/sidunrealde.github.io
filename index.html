@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="packages/images/favicon-16x16.png">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./packages/css/styles.css">
+    <link rel="stylesheet" href="./packages/css/randomImages.css">
+    <title>Unreal Developer | Siddartha Gonnabattula</title>
+</head>
+
+<body>
+    <!--==================== Background Random Images ====================-->
+    <img class="image-container" src=""></img>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container ">
+            <a href="#" class="nav__logo">Siddartha G</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--==================== PROGRESS BAR ====================-->
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/SiddarthaG/" target="_blank"
+                            class="hover-icon home__social-icon">
+                            <span class="hover-text">LinkedIn Profile</span>
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://faizalkhan99.itch.io" target="_blank" class="hover-icon home__social-icon">
+                            <span class="hover-text">itch.io Page</span>
+                            <i class="uil uil-bag-alt"></i>
+                        </a>
+                        <a href="https://github.com/sidunrealde/" target="_blank" class="hover-icon home__social-icon">
+                            <span class="hover-text">GitHub Profile</span>
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <!-- Define a circle path for the mask -->
+                                <circle cx="100" cy="100" r="100" fill="white" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <!-- Define a circle path for the shape -->
+                                <circle cx="100" cy="100" r="100" fill="white" />
+                                <image class="home__blob-img" x="-10" y="0" width="200" height="200"
+                                    xlink:href="packages/images/Sid.jpeg" />
+                            </g>
+                        </svg>
+
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'am Siddartha G</h1>
+                        <h3 class="home__subtitle">Unreal Developer</h3>
+                        <p class="home__description" style="text-align: justify;">A passionate game developer with with 3 years of experience. I specialize in gameplay programming, level design, and performance optimization, using both Blueprints and C++ to create immersive, high-quality experiences. My work includes [notable projects], and I'm always excited to take on new challenges. Feel free to explore my portfolio and reach out for collaboration!</p>
+                        <a href="#contact" class="button button--flex home__button">
+                            Hire Me<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">About Me</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--==================== WORK SAMPLE - DOCUMENTATIONS ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">WORK SAMPLE</h2>
+            <span class="section__subtitle">Work that I have been doing.</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Doc 14 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/Kwalee.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Kwalee - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">The design assignment
+                                had 2 tasks. First required me to generate a concept document out of three provided
+                                ideas and in task 2, I was asked to transition one of their games into a hybrid casual
+                                from a hypercasual.
+                            </p>
+                            <a href="https://docs.google.com/document/d/1eOBCXwDqRPPwmaMiyolfaUKa27MipzdVGwFxGmnbb44/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Doc 13 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/snk.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">SNK IT Solutions - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">The design assignment
+                                had 2 parts. Part 1 required me to improve one of their game and for part 2, I was asked
+                                to
+                                merge cooking and dress up games to come up with something new.
+                            </p>
+                            <a href="https://docs.google.com/document/d/1ZX1v5Nrhus92hFWiSYV0xNgYh-czCNBnmYXM_F7zz8E/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Doc 12 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/bombayplay.png" alt=""
+                            class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Bombay Play - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A technical test was given to
+                                me which required me to find how bots should score in a tournament to keep plyer engaged
+                                and not to make the player feel bored or frustrated.</p>
+                            <a href="https://docs.google.com/document/d/16teoROsYKfSqvGuFfdoNCMdETsulPbXAF7gVbzig8fg/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Doc 11 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/playsimple.png" alt=""
+                            class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">PlaySimple Games - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">There were two parts of this
+                                assignment. First one required me to deconstruct Royal Match and second one was
+                                expecting me to improve the game Word Trip.</p>
+                            <a href="https://docs.google.com/document/d/1W3gJkfv3xqQxhOzf6EQfST23tU5cbMoWP8-MriFeaSQ/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 10 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/tapnplay.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Tap N Play - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">Some reference games were
+                                given to me and I was expected to take one of them as an inspiratin to develop a new and
+                                unique concept about a mobile RPG game and make its GDD.</p>
+                            <a href="https://docs.google.com/document/d/1OmjCLmoQc5ZlQkEYw7EDQ9SkLgkX3_-ZY-Z_VaZ1gkU/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 9 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/jash.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Jash Entertainment - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">I was tasked with merging the
+                                game concept of a game called MISSILES with the core mechanics of another game, COLOR
+                                SWITCH.</p>
+                            <a href="https://docs.google.com/document/d/1hRfdtFO5laubkSOPxudbcJ69xuN_8BQO_gt7dWLdFWk/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 8 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/glance.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Glance - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">An ongoing client project for
+                                Glance involves developing a tower defense multiplayer mobile game. The game is being
+                                created by a team of seven people using technologies such as the Unity engine, Blender,
+                                C#, Maya3D, Photoshop, and GitHub.</p>
+                            <a href="packages/docs/gdd/GlanceTowerDefence_Docs.pdf" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 7 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/juegostudio.png" alt=""
+                            class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Juego Studio - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">The assignment had parts:
+                                writing level logic for an infinite runner, designing a unique hyper-casual game concept
+                                with a detailed GDD, and creating a game balance sheet for 100 levels of a top-down
+                                isometric shooter game.</p>
+                            <a href="https://drive.google.com/file/d/1g3SUVpZAgDzaptE2IhHNCYIstiAXMaX_/view?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 6 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/companies/renderedideas.png" alt=""
+                            class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Rendered Ideas - Design Test</h3>
+                            <p style="text-align: justify;" class="portfolio__description">
+                                The design assignment had three parts: identifying bugs and redesigning a boss enemy,
+                                discussing level design principles of various games, and designing levels with new
+                                features for the given game.</p>
+                            <a href="https://drive.google.com/file/d/1Kni826h3ICefF1LYNuEp40FIEoSvmRtV/view?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/rocketboy.jpg" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Rocket Boy - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">Game design document of a
+                                platformer game made by me and my teammate for Dev's Arena game jam 2023 organised by
+                                ACAD & Game Connect.</p>
+                            <a href="https://docs.google.com/document/d/1CG6_csKqNRWCznQZtIZ8cl1-9h7dz6DY-_J0zuvlWeg/edit?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/rubberbang.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Rubber Bang - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">Game design document of an
+                                online multiplayer shooting game developed in which the losing player gets a buff and
+                                the winning playr gets a nerf for a college level competition with a teammate that we
+                                won.</p>
+                            <a href="https://drive.google.com/file/d/1AiGXoTHG4MPCnOba7lRimpxS2P3l8iUf/view?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/monophobia.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Monophobia - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A 3D horror game developed
+                                for a game jam with a teammate in the span of 20 days. Made using Unity Engine, C# &
+                                Blender.</p>
+                            <a href="https://drive.google.com/file/d/1oMKVolXaFAW4xG4TycKkqng3bLJMO628/view?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/chaoticduo.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Chaotic Duo - Concept Doc</h3>
+                            <p style="text-align: justify;" class="portfolio__description">
+                                It's a car racing game where vehicles shoot, jump, and attempt to knock opponents off
+                                the track. The game revolves around intense vehicle combat, creating a thrilling battle
+                                among cars.</p>
+                            <a href="https://drive.google.com/file/d/1YY-lGb4L2UCprboSMpA0SX2kaMyJZw6n/view?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Doc 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/bobtheheader.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Bob The Header - GDD</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A firs person platformer game
+                                in which the villian steels the protagonist's shiny shoes, now the protagonist is trying
+                                to get his
+                                shoes back.</p>
+                            <a href="https://drive.google.com/file/d/1-8fboQ1NERKcDUHuJVd83jsfo1j3Thn_/view?usp=sharing"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Open Document
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--==================== MY GAMES ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">MY GAMES</h2>
+            <span class="section__subtitle">Games I Have Made So Far</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/rocketboy.jpg" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Rocket Boy</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A platformer game made by me
+                                and my teammate for Dev's Arena game jam 2023 organised by ACAD & Game Connect.
+                                Developed for Windows, MAC & Linux. Made using Unity Engine, C# & Blender</p>
+                            <a href="pshowcasetemplate.html?project=0"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/balloony.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Balloony - Android Game</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A casual balloon popping game
+                                with multiple game modes made for android devices. Made using Unity Engine, C# &
+                                Inkscape.</p>
+                            <a href="pshowcasetemplate.html?project=1"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/levelarium.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Levelarium - Android Game</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A 2.5D puzzle platfromer game
+                                made for android devices. Made using Unity Engine, C# & Blender</p>
+                            <a href="pshowcasetemplate.html?project=2"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/TT.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Trash Troopers - Casual</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A mobile casual educational
+                                game made for IGDC category award in 2023. I played the role of A game & level designer.
+                            </p>
+                            <a href="pshowcasetemplate.html?project=3"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/thesecretlanguage.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">The Language of Love - BYOG</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A Zelda inspired 2D game
+                                developed for BYOG game jam hosted by IGDC in 2023. Made with a team of 3. Made using
+                                Unity Engine, C# & Piskel.</p>
+                            <a href="pshowcasetemplate.html?project=4"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 6 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/monophobia.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Monophobia - 3D Horror Game</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A 3D horror game developed
+                                for a game jam with a teammate in the span of 20 days. Made using Unity Engine, C# &
+                                Blender.</p>
+                            <a href="pshowcasetemplate.html?project=5"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 7 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/rubberbang.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Rubber Bang - Online Multiplayer</h3>
+                            <p style="text-align: justify;" class="portfolio__description">An online multiplayer
+                                shooting game develope for a college level competition with a teammate that we won. Made
+                                using Unity Engine, C# & Blender.</p>
+                            <a href="pshowcasetemplate.html?project=6"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 8 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/DTT.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Darren The Thief - Point n Click</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A point and click strategy
+                                game for Windows, MAC & Linux. Made with Unity engine using C#.</p>
+                            <a href="pshowcasetemplate.html?project=7"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 9 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/lama.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">L.A.M.A. - Gamified Portfolio App</h3>
+                            <p style="text-align: justify;" class="portfolio__description">L.A.M.A. stands for Learn
+                                About Me App. A gamified portfolio app to showcase all the game I've made using a
+                                dungeon crawler. Made with Unity engine using C#.</p>
+                            <a href="pshowcasetemplate.html?project=8"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 10 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/underthetree.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Under The Tree - Android Casual</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A mobile casual fruit
+                                catching game for android devices. Made with Unity engine using C#.</p>
+                            <a href="pshowcasetemplate.html?project=9"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 11 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/ghostrunner.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Ghost Runner - Infinite Side Scroller</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A WebGL infinite side
+                                scroller game made with Unity Engine using C#.</p>
+                            <a href="pshowcasetemplate.html?project=10"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 12 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/images/spacerocks.png" alt="" class="portfolio__img company_logo">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Space Rocks</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A space shooter for Mac,
+                                Linux & Windows systems. My first game ever. Made with GameMakerStudio2.</p>
+                            <a href="pshowcasetemplate.html?project=11"
+                                class="button button--flex button--small portfolio__button">
+                                View Details
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+        </section>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">ABOUT ME</h2>
+            <span class="section__subtitle">Who Am I?</span>
+
+            <div class="about__container container grid">
+                <img src="packages/images/photo_2.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description" style="text-align: justify;">
+                        I am Faizal Khan, a Game Designer from Delhi, India. I've been designing and developing games
+                        since 2022, I specialize in Game, Systems, Level Design & creating realistic lighting using Unity HDRP. I work at X-YUG Technologies Pvt. Ltd. where I
+                        we work industrial AR/VR projects and exciting games. I'm Capable of Designing Casual/Mid-core games, developing prototypes, blockouts, documentations & lighting. Proficient in Unity Engine & C#
+                        with a litle bit of Blender too.<br>PS: Horror games are my absolute favorite.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Completed <br> certifications</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Game<br>Jams</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="https://docs.google.com/document/d/1RNkvfSk9QKnnJk2H_LtwqHy4QOTNu7onzMCmNXNgD64/edit?usp=sharing"
+                            target="_blank" class="button button--flex">
+                            My Resume<i class="uil uil-share button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">SKILLS</h2>
+            <span class="section__subtitle">Tools and Technologies I possess.</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILL-1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brain skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Game Design Skills</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        <table>
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <i class="uil uil-arrow-circle-right"
+                                                        style="color: var(--first-color);">&nbsp;</i>
+                                                </td>
+                                                <td>
+                                                    Designing every aspect of
+                                                    a fun & engaging experience such as core loop, stabalized player
+                                                    agency, enemy
+                                                    AI and behaviour
+                                                    etc.
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </h3>
+                                    <!-- <span class="skills__number">90%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        <table>
+                                            <tr>
+                                                <td style="vertical-align: top;"><i class=" uil uil-arrow-circle-right"
+                                                        style="color: var(--first-color);">&nbsp;</i>
+                                                </td>
+                                                <td style="content: justify">
+                                                    Level Design using traditional pen 'n paper
+                                                    as well as advanced
+                                                    internal tools used for authering 'authored-random level generation'
+                                                    made by programmers
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </h3>
+                                    <!-- <span class="skills__number">90%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__tab"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil">
+                                        <table>
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <i class="uil uil-arrow-circle-right"
+                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                </td>
+                                                <td>
+                                                    Creating realistic lightig and environments using HDRP and also
+                                                    making it performant by light baking and using lightmaps.
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </h3>
+                                    <!-- <span class="skills__number">100%</span> -->
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil">
+                                        <table>
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <i class="uil uil-arrow-circle-right"
+                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                </td>
+                                                <td>
+                                                    Creating and maintaining all kinds of documentations such as Game
+                                                    Design Documents, Level Design Document etc.
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </h3>
+                                    <!-- <span class="skills__number">100%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Development Tools
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil">
+                                        <table>
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <i class="uil uil-arrow-circle-right"
+                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                </td>
+                                                <td>
+                                                    Proficient in Unity(5 & 6) Engine and its components like lighting, animator,
+                                                    timeline, 2d sprite system etc. and HD render pipelines(HDRP).
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </h3>
+                                    <!-- <span class="skills__number">80%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__bank"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil">
+                                        <table>
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <i class="uil uil-arrow-circle-right"
+                                                        style="color: var(--first-color)">&nbsp;</i>
+                                                </td>
+                                                <td>
+                                                    C#
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </h3>
+                                    <!-- <span class="skills__number">60%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__counter"></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-pen skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title"> Art & UI/UX Tools</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
+                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Capable of making low-poly stuff in Blender.</h3>
+                                    <!-- <span class="skills__number">40%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
+                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Basic knowledge of Photoshop/Incscape</h3>
+                                    <!-- <span class="skills__number">20%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
+                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Brainstorming and system designing in Miro Board.</h3>
+                                    <!-- <span class="skills__number">100%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
+                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Canva for quick designs and youtube thumbnails.</h3>
+                                    <!-- <span class="skills__number">100%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__wordpress"></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SKILLS 4 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-apps skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">General
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
+                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;MS Office</h3>
+                                    <!-- <span class="skills__number">80%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__bank"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name uil"><i class="uil uil-arrow-circle-right"
+                                            style="color: var(--first-color)"></i>&nbsp;&nbsp;Google Suit</h3>
+                                    <!-- <span class="skills__number">60%</span> -->
+                                </div>
+                                <!-- <div class="skills__bar">
+                                    <span class="skills__percentage skills__counter"></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== PROJECT IN MIND? ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Have a Game Idea?</h2>
+                        <p class="project__description">Let's Make Your Game Come To Life. Together.</p>
+                        <a href="#contact" class="button button--flex button--white">Let's Talk
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                        <br>
+                    </div>
+                    <img src="packages/images/ideaGIF.gif" alt="" class="project__img">
+                    <br>
+                </div>
+            </div>
+
+        </section>
+        <!--==================== QUALIFICATIONS ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title edu_title">EDUCATION | EXPERIENCE</h2>
+            <span class="section__subtitle">My Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Experience
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== WORK EXPERIENCE ====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== Work XP 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Game Designer</h3>
+                                <span class="qualification__subtitle">X-YUG Technologies Pvt. Ltd - Full Time</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Aug 2024 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Game Designer</h3>
+                                <span class="qualification__subtitle">Insanity Crew - Full Time</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Aug 2023 - July 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Master of Computer Applications [MCA] </h3>
+                                <span class="qualification__subtitle">IGNOU, Delhi, India.</span>
+                                <span class="qualification__subtitle">CGPA: NDY/10</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2023 - 2025
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Bachelor of Computer Applications [BCA]</h3>
+                                <span class="qualification__subtitle">VIPS, Delhi, India.</span>
+                                <span class="qualification__subtitle">CGPA: 9.19/10</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2023
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">High School [PCMB]</h3>
+                                <span class="qualification__subtitle">Govt. Boys. Sn. Sc. School no 1, Delhi,
+                                    India.</span>
+                                <span class="qualification__subtitle">CGPA: 7.2/10</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018 - 2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== CERTIFICATIONS ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">CERTIFICATIONS</h2>
+            <span class="section__subtitle">Certificates Under My Belt</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Cert. 1 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/docs/certificates/gamedev.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Game Development - Udemy</h3>
+                            <p style="text-align: justify;" class="portfolio__description">An online course on game
+                                developement from start to finish which included programming, animations, pubishing to
+                                google play store and many other concepts of game developement. This course was in
+                                partnership with Unity Engine itself.</p>
+                            <a href="packages/docs/certificates/gamedev.jpg" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Expand
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Cert. 2 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/docs/certificates/arvr.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">AR/VR Course - BCA [VIPS]</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A offline course of AR/V
+                                technologies offered by the college[VIPS] itself that included AR/VR development using
+                                Unity Engine and C#. Also other programming concepts in general were taught during this
+                                course.</p>
+                            <a href="packages/docs/certificates/arvr.png" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Expand
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== Cert. 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./packages/docs/certificates/webdev.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Full Stack Web Development - Udemy</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A full stack web developement
+                                online course completed during summer vacations of my Bachelor's degree. It included
+                                technologies such as html,
+                                css, js, react, node.js, express.js, mongodb, sql, github, hosting etc.</p>
+                            <a href="packages/docs/certificates/webdev.jpg" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Expand
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+        </section>
+        <!--==================== Competitions ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">COMPETITIONS</h2>
+            <span class="section__subtitle">We're goin' competitive baby</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Cert. 1 ====================-->
+                    <div class="portfolio__content grid swiper-slideX">
+                        <img src="./packages/docs/certificates/techcon.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Project Competition - VIPS</h3>
+                            <p style="text-align: justify;" class="portfolio__description">A college level competition
+                                where me and my teammate presented "Rubber Bang" as an entry that we had to present in
+                                front of everyone and we WON. A certificate and a cash prize of INR 15000/-</p>
+                            <a href="https://www.instagram.com/p/CqKxUOFS-Ir/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                More Info.
+                                <i class="uil uil-share button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- add arrows
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                Add Pagination
+                <div class="swiper-pagination"></div> -->
+
+
+            </div>
+
+        </section>
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonial section">
+
+            <h2 class="section__title">TESTIMONIALS</h2>
+            <span class="section__subtitle">What People Say About Me.</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== TESTIMONIAL 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="./packages/images/manik.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Manik Sahu</h3>
+                                    <span class="testimonial__client">CEO, Insanity Crew</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="text-align: justify" class="testimonial__description">Faizal handles the Game & Level
+                            design of multiple casual mobile games being made within Insanity Crew. He's calm and a very
+                            good listener, knows how to keep his ideas humbly with the team. Always responsive when we
+                            message and command something. Good at brainstorming ideas with the team and properly
+                            documenting game design. Faizal also handled things in our IGDC Booth Showcase 2023. And
+                            communicated very well with the attendees.
+                        </p>
+                    </div>
+                    <!--==================== TESTIMONIAL 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="./packages/images/anmol.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Anmol Mittal</h3>
+                                    <span class="testimonial__client">Colleague, Insanity Crew</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="text-align: justify;" class="testimonial__description">I highly recommend Faizal Khan
+                            as a game designer. We met each other in 2020 and have been in touch since then. He's never
+                            disappointed me with any of his ideas. We've worked on multiple projects together, and all
+                            these projects were uniquely designed by Faizal by himself. His knowledge in the domain is
+                            also very impressive. He really knows how game designing works and definitely knows what
+                            he's doing.
+                        </p>
+                    </div>
+                    <!--==================== TESTIMONIAL 3 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="./packages/images/sagar.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Sagar Kushwaha</h3>
+                                    <span class="testimonial__client">Colleague, Insanity Crew</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description" style="text-align: justify;">I've had the pleasure of
+                            working with Faizal on several game projects, including our collaboration at Insanity Crew,
+                            and I can confidently say he's an exceptional game designer. His creative ideas and critical
+                            thinking were crucial to our team's success, notably earning us 4th place at the Dev's Arena
+                            Game Jam sponsored by IGDC Game Connect. Faizal is calm, a great listener, and integrates
+                            feedback seamlessly, always delivering top-notch, user-friendly designs. He's a true asset
+                            to any team, and I highly recommend him.</p>
+                    </div>
+                </div>
+
+                <!--Add pagination-->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Let's Turn Your Awesome Game Ideas Into Awesome Games.</h2>
+            <span class="section__subtitle">Get In Touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">(+91) 7303708247</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contatc__subtitle">work.faizalkhan99@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">New Delhi, India.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formcarry.com/s/mhpTNhQ7I9q" method="POST" enctype="multipart/form-data"
+                    class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="fc-generated-1-name" class="contact__label">Full Name</label>
+                            <input type="text" name="name" id="fc-generated-1-name" class="contact__input" />
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="fc-generated-1-email" class="contact__label">Your Email Address</label>
+                            <input type="email" name="email" id="fc-generated-1-email" class="contact__input" />
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="fc-generated-1-message" class="contact__label">Your message</label>
+                        <textarea class="contact__input" name="message" name="message"
+                            id="fc-generated-1-message"></textarea>
+                    </div>
+
+                    <div>
+                        <button style="border: 0px;" type="submit" class="button button--flex">Send Message<i
+                                class="uil uil-message button__icon"></i></button>
+                    </div>
+
+                </form>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Faizal Khan</h1>
+                    <span class="footer__subtitle">Game Designer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href=https://faizalkhan99.itch.io target="_blank" class="hover-icon footer__social">
+                        <span class="hover-text">itch.io Page</span>
+                        <i class="uil uil-bag-alt"></i>
+                    </a>
+                    <a href="https://www.instagram.com/faizalll___/" target="_blank" class="hover-icon footer__social">
+                        <span class="hover-text">Instagram Profile</span>
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/faizalkhan99/" target="_blank" class="hover-icon footer__social">
+                        <span class="hover-text">LinkedIn Profile</span>
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Faizal Khan. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/randomImages.js"></script>
+    <script src="./packages/js/main.js"></script>
+    <script src="./packages/js/pshowcase.js"></script>
+    </script>
+</body>
+
+</html>
