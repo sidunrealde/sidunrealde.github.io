@@ -1495,3 +1495,51 @@ img {
   width: 200px;
   height: 200px;
 }
+
+/* Ensures the video maintains a 16:9 aspect ratio */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100 = 56.25) */
+  height: 0;
+  overflow: hidden;
+  transform: scale(1.15); /* 25% larger */
+  transform-origin: center center; /* Keeps the scale centered */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the portfolio content */
+.video__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__info {
+  padding: 20px;
+  text-align: center;
+  background-color: none;
+  width: 100%;
+}
+
+/* Optional: Add some spacing between elements if needed */
+.video__title {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.video__description {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+
+
