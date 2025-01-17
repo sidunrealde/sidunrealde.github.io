@@ -594,6 +594,21 @@ img {
   transform: rotate(-180deg);
 }
 
+
+.skills__arrow-unreal {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills__open .skills__arrow-unreal {
+  transform: rotate(-180deg);
+}
+
+.skills__arrow-unreal {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
   display: flex;
