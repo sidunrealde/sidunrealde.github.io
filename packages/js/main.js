@@ -33,6 +33,9 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 const skillsContent = document.getElementsByClassName("skills__content"),
   skillsHeader = document.querySelectorAll(".skills__header");
 
+const subskillsContent = document.getElementsByClassName("sub_skills__content"),
+subskillsHeader = document.querySelectorAll(".sub_skills__header");
+
 function toggleSkills() {
   let itemClass = this.parentNode.className;
 
@@ -42,10 +45,28 @@ function toggleSkills() {
   if (itemClass === "skills__content skills__close") {
     this.parentNode.className = "skills__content skills__open";
   }
+  console.log(this.parentNode.className);
+}
+
+function toggleSubSkills() {
+  let itemClass = this.parentNode.className;
+  // console.log(itemClass);
+
+  for (i = 0; i < subskillsContent.length; i++) {
+    subskillsContent[i].className = "sub_skills__content sub_skills__close";
+  }
+  if (itemClass === "sub_skills__content sub_skills__close") {
+    this.parentNode.className = "sub_skills__content sub_skills__open";
+  }
+  console.log(this.parentNode.className);
 }
 
 skillsHeader.forEach((el) => {
   el.addEventListener("click", toggleSkills);
+});
+
+subskillsHeader.forEach((el) => {
+  el.addEventListener("click", toggleSubSkills);
 });
 
 /*==================== QUALIFICATION TABS ====================*/
